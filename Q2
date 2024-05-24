@@ -1,0 +1,9 @@
+# Q2
+number = int(input("")) #隊伍總數
+res = 0  #組數歸零
+
+for i in range(number):    #重複次數 
+  member = int(input(""))     #輸入各隊人數
+  if member % 3 == 0 and member > 0:        #判斷隊伍人數符合與否
+    res = res + 1 
+print(res) #符合標準的隊伍數量
