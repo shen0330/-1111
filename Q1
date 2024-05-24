@@ -1,0 +1,6 @@
+pattern1 = "*+"  # 先定義模式的第一部分
+pattern2 = "+*"  # 定義模式的第二部分
+
+for i in range(5):  # 循環五次進而生成五行圖形
+    print(pattern1 * 10)  # 複製五次第一部分的模式
+    print(pattern2 * 10)  # 再複製五次第二部分的模式
